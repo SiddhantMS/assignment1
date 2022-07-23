@@ -1,0 +1,168 @@
+#include <stdio.h>
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   
+   /* 
+    printf("\n\n");
+    printf("1.\n");
+        int d;
+        int sum=0;
+        printf("give a no.");
+        cin>>d;
+       for(int i=1;i<=d;i++){
+           sum=sum+i;
+           //printf("the sum of %d is:",i);
+        
+    }printf("%d ",sum);
+    
+    
+    
+     printf("\n\n");
+    printf("2.\n");
+     int f;
+     int sum=0;
+      printf("give a no.");
+    cin>>f;
+    for(int i=1;i<=f;i++){
+        sum=sum+(2*i-1);
+        printf("%d ",2*i-1);
+    }printf(" = %d ",sum);
+    
+    
+    
+    
+       
+     printf("\n\n");
+    printf("3.\n");
+      int b;
+      int sum=0;
+      printf("give a no.");
+    cin>>b;
+     int nio=0;
+    printf("%d\n",nio);
+    for(int i=0;i<b;i++){
+        nio=nio+2;
+        printf("%d ",nio);
+        sum=sum+nio;
+}printf(" = %d",sum);
+
+
+    
+    
+      printf("\n\n");
+    printf("4.\n");
+      int m;
+      int sum=0;
+      printf("give a no.");
+    cin>>m;
+       for(int i=1;i<=m;i++){
+           int sqr;
+           sqr=i*i;
+        printf("the sqr of %d is %d\n",i,sqr);
+        sum =sum+sqr;
+    }printf("the sum of all above sqr is: %d",sum);
+    
+    
+      printf("\n\n");
+    printf("5.\n");
+    int k;
+    int sum=0;
+      printf("give a no.");
+    cin>>k;
+       for(int i=1;i<=k;i++){
+           int cube;
+           cube=i*i*i;
+        printf("the cube of %d is %d\n",i,cube);
+        sum=sum+cube;
+    }printf("the sum of all above cube is:%d",sum);
+  
+  
+   printf("\n\n");
+    printf("6.\n");
+    int a;
+    int fact=1;
+     printf("give a no.");
+    scanf("%d",&a);
+    for(int i=a;i>=1;i--){
+        fact=fact*i;
+    }printf("the factorial of %d is %d.",a,fact);
+   
+   
+      printf("\n\n");
+    printf("7.\n");
+    int x;
+    int no=0;
+     printf("give a no.");
+    scanf("%d",&x);
+    while(!x==0){
+        no++;
+        x=x/10; 
+        
+          }printf(" the digit in given no is %d",no);
+   
+       printf("\n\n");
+    printf("8  prime no\n");
+   // cout<<"Hello World";
+    int i,n,r;
+    printf("enter a no");
+    scanf("%d",&n);
+    for(int i=2;i<=n/2;i++){
+       r=n%i;
+        if(r==0){
+            printf("given no is not prime");
+            break;
+        }
+        else {
+            printf("given no is prime");
+            break;}
+   
+ printf("\n\n");
+    printf("9  lcm no\n");
+
+	 int n1, n2, max;
+    printf("Enter two positive integers: ");
+    scanf("%d %d", &n1, &n2);
+
+    
+    max = (n1 > n2) ? n1 : n2;
+
+    while (1) {
+        if (max % n1 == 0 && max % n2 == 0) {
+            printf("The LCM of %d and %d is %d.", n1, n2, max);
+            break;
+        }
+        ++max;
+
+}
+
+    
+   
+     printf("\n\n");
+    printf("10.   revers no\n");
+    int y;
+    int rev;
+    int no=0;
+     printf("give a no.");
+    scanf("%d",&y);
+    
+    while(!y==0){
+        rev=y%10;
+        y=y/10;
+        no=no*10+rev;
+    }
+    printf(" revised no is :%d",no);
+}
+
+
+
+
+
+
+
+
+
+
+ 

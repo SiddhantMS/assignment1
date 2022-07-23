@@ -1,0 +1,86 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   
+ /*  
+   printf("\n\n");
+   printf("1.and 2\n");
+   int a=0;
+    int b=1;
+    int fab;
+    int n;
+    printf("give a no:");
+    scanf("%d",&n);
+    for(int i=0;i<n-1;i++){
+        printf("%d ",a);
+        fab=a+b;
+        a=b;
+        b=fab;
+       // printf("%d ",a);
+        
+    }
+    printf("%d",b);
+    printf("\nthe nth term in fabonic series is %d",fab);
+   */ 
+    printf("\n\n");
+    printf("3.\n");
+     int a=0;
+    int b=1;
+    int fab;
+    int no;
+    
+    
+   /* printf("give a no:");
+    scanf("%d",&no);
+    for(int i=0;i<100;i++){
+        printf("%d ",a);
+        fab=a+b;
+        a=b;
+        b=fab;
+        if(no==fab){
+            printf("given no is in fabonic series");
+            
+            break;
+        }
+        else printf("no is not in fabonic");
+
+       // printf("%d ",a);
+     }
+    
+	printf("\n\n");
+    printf("4.\n");
+	 int a,b,hcf=1;
+    printf("enter two no:");
+    scanf("%d,%d",&a,&b);
+   int min = a < b ? a :b;
+    for(int i=1;i<=min;i++){
+        if((a%i==0)&&(b%i==0)){
+            hcf=i;
+        }
+    }
+    printf("hcf is %d",hcf);
+    
+
+	printf("\n\n");
+    printf("5.\n");
+	 int a,b,hcf=1;
+    printf("enter two no:");
+    scanf("%d,%d",&a,&b);
+   int min = a < b ? a :b;
+    for(int i=1;i<=min;i++){
+        if((a%i==0)&&(b%i==0)){
+            hcf=i;
+        }
+    }
+    printf("hcf is %d",hcf);
+	if(hcf==1)
+	printf("given no's are coprime");
+	else Printf("not coprime");
+
+	printf("\n\n");
+    printf("6.\n");
+	
+}
